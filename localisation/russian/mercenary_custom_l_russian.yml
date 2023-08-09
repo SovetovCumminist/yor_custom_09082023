@@ -1,0 +1,16 @@
+﻿l_russian:
+
+ cost_cp30_pp75: "£command_power  §G30§! £pol_power  §G75§!"
+ cost_cp30_pp75_blocked: "£command_power  §R30§! £pol_power  §R75§!"
+
+ cost_cp25_pp50: "£command_power  §G25§! £pol_power  §G50§!"
+ cost_cp25_pp50_blocked: "£command_power  §R25§! £pol_power  §R50§!"
+
+ cost_cp15_pp30: "£command_power  §G15§! £pol_power  §G30§!"
+ cost_cp15_pp30_blocked: "£command_power  §R15§! £pol_power  §R30§!"
+
+ cost_cp10_pp20: "£command_power  §G10§! £pol_power  §G20§!"
+ cost_cp10_pp20_blocked: "£command_power  §R10§! £pol_power  §R20§!"
+
+ cost_cp5_pp10: "£command_power  §G5§! £pol_power  §G10§!"
+ cost_cp5_pp10_blocked: "£command_power  §R5§! £pol_power  §R10§!"

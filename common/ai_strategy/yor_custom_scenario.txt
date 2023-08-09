@@ -12,101 +12,101 @@ yor_custom = {
 	ai_strategy = {
 		type = antagonize
 		id = "UKR"
-		value = -5000
+		value = 6000
 	}
 	ai_strategy = {
 		type = conquer
 		id = "UKR"
-		value = -5000
+		value = 6000
 	}
 	ai_strategy = {
 		type = antagonize
 		id = "MOL"
-		value = -5000
+		value = 150
 	}
 	ai_strategy = {
 		type = conquer
 		id = "MOL"
-		value = -5000
+		value = 150
 	}
 	ai_strategy = {
 		type = antagonize
 		id = "CRI"
-		value = -5000
+		value = 5000
 	}
 	ai_strategy = {
 		type = conquer
 		id = "CRI"
-		value = -5000
+		value = 5000
 	}
 	ai_strategy = {
 		type = antagonize
 		id = "DON"
-		value = -5000
+		value = 7000
 	}
 	ai_strategy = {
 		type = conquer
 		id = "DON"
-		value = -5000
+		value = 7000
 	}
 	ai_strategy = {
 		type = antagonize
 		id = "KUB"
-		value = -5000
+		value = 6000
 	}
 	ai_strategy = {
 		type = conquer
 		id = "KUB"
-		value = -5000
+		value = 6000
 	}
 	ai_strategy = {
 		type = antagonize
 		id = "CCS"
-		value = -5000
+		value = 500
 	}
 	ai_strategy = {
 		type = conquer
 		id = "CCS"
-		value = -5000
+		value = 500
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "GEO"
-		value = -5000
+		id = "SAK"
+		value = 500
 	}
 	ai_strategy = {
 		type = conquer
-		id = "GEO"
-		value = -5000
+		id = "SAK"
+		value = 500
 	}
 	ai_strategy = {
 		type = antagonize
 		id = "AZR"
-		value = -5000
+		value = 150
 	}
 	ai_strategy = {
 		type = conquer
 		id = "AZR"
-		value = -5000
+		value = 150
 	}
 	ai_strategy = {
 		type = antagonize
 		id = "LIP"
-		value = -5000
+		value = 5000
 	}
 	ai_strategy = {
 		type = conquer
 		id = "LIP"
-		value = -5000
+		value = 5000
 	}
 	ai_strategy = {
 		type = antagonize
 		id = "BYM"
-		value = -5000
+		value = 500
 	}
 	ai_strategy = {
 		type = conquer
 		id = "BYM"
-		value = -5000
+		value = 500
 	}
 }

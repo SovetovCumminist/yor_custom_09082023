@@ -144,12 +144,10 @@ opt_borders_middle_east = {
 
 opt_borders_all = {
 	allowed = {
-		not = {
-			or = { 
-				capital_scope = { is_on_continent = europe } 
-				capital_scope = { is_on_continent = asia }
-				capital_scope = { is_on_continent = middle_east }
-			}
+		not = { 
+			capital_scope = { is_on_continent = europe } 
+			capital_scope = { is_on_continent = asia }
+			capital_scope = { is_on_continent = middle_east }
 		}
 	}
 	

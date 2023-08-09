@@ -23,6 +23,11 @@ on_actions = {
 				if = {
 					Limit = {
 						is_ai = yes
+						or = {
+							capital_scope = { is_on_continent = north_america }
+							capital_scope = { is_on_continent = south_america }
+							capital_scope = { is_on_continent = asia_america }
+						}
 					}
 					country_lock_all_division_template = yes
 				}

@@ -1,0 +1,30 @@
+﻿l_russian:
+
+ mercenary_decision: "§R Контракт с наёмниками§!"
+ armored_mercenary: "§O ЧВК "Вагнер"§! £unit_medium_armor_icon_small"
+ motorized_mercenary: "§C Иностранный легион§! £unit_motorized_icon_small"
+ swi_mercenary: "§R Швейцарская Гвардия§! £unit_mountaineers_icon_small"
+ infantry_mercenary: "§G Наёмники§! £unit_artillery_icon_small"
+ independent_mercenary: "§Y Отряд Сокола§! £unit_infantry_icon_small"
+ child_soldier: "Дети-солдаты £population_texticon"
+
+ armored_mercenary_contract: "§O Контракт с ЧВК "Вагнер"§!"
+ motorized_mercenary_contract: "§C Контракт с Иностранным легионом§!"
+ swi_mercenary_contract: "§R Контракт с Швейцарской Гвардией§!"
+ infantry_mercenary_contract: "§G Контракт с Наёмниками§!"
+ independent_mercenary_contract: "§Y Контракт с Отрядом Сокола§!"
+ child_soldier_mission: "Дети-солдаты"
+
+ armored_mercenary_contract_extension: "ЧВК "Вагнер" - продление контракта"
+ motorized_mercenary_contract_extension: "Иностранный легион - продление контракта"
+ swi_mercenary_contract_extension: "Швейцарская Гвардия - продление контракта"
+ infantry_mercenary_contract_extension: "Наёмники - продление контракта"
+ independent_mercenary_contract_extension: "Отряд Сокола - продление контракта"
+ child_soldier_delete: "Вернуть детей домой"
+
+ idea_armored_mercenary: "Выплаты для ЧВК "Вагнер""
+ idea_motorized_mercenary: "Выплаты Иностранному легиону"
+ idea_swi_mercenary: "Выплаты Швейцарской Гвардии"
+ idea_infantry_mercenary: "Выплаты наёмникам"
+ idea_independent_mercenary: "Выплаты Отряду Сокола"
+ idea_child_soldier: "Дети-солдаты"

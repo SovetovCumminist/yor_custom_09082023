@@ -1,0 +1,661 @@
+mercenary_decision = {
+	armored_mercenary = {
+		icon = category_ger_military_buildup
+		visible = {
+            NOT = { has_country_flag = armored_mercenary_flag }
+		}
+		available = {
+			num_of_civilian_factories > 10
+			NOT = { has_idea = idea_armored_mercenary}
+		}
+		custom_cost_trigger = {
+			has_political_power > 74
+			command_power > 29
+		}
+		custom_cost_text = cost_cp30_pp75
+		days_remove = 0
+		days_re_enable = 0
+		fire_only_once = no
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -75
+				add_command_power = -30
+			}
+		    add_timed_idea = { idea = idea_armored_mercenary days = 50 }
+		    set_country_flag = armored_mercenary_flag
+		    set_country_flag = armored_mercenary_flag1
+		    division_template = {
+				name = "Armored Mercenary Company"
+					is_locked = yes
+					division_names_group = USA_INF_01
+					regiments = {
+
+					motorized = { x = 0 y = 0 }
+					motorized = { x = 0 y = 1 }
+					motorized = { x = 0 y = 2 }
+					motorized = { x = 0 y = 3 }
+					
+					motorized = { x = 1 y = 0 }
+					motorized = { x = 1 y = 1 }
+					motorized = { x = 1 y = 2 }
+					motorized = { x = 1 y = 3 }
+
+					medium_armor = { x = 2 y = 0 }
+					medium_armor = { x = 2 y = 1 }
+					medium_armor = { x = 2 y = 2 }
+
+					medium_armor = { x = 3 y = 0 }
+					medium_armor = { x = 3 y = 1 }
+
+					mot_anti_air_brigade = { x = 4 y = 0 }
+					mot_anti_air_brigade = { x = 4 y = 1 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					mot_recon = { x = 0 y = 1 }
+					maintenance_company = { x = 0 y = 2 }
+					signal_company = { x = 0 y = 3 }
+					logistics_company = { x = 0 y = 4 }
+				}
+			}
+            capital_scope = {
+				create_unit = {
+					division = "name = \"Armored Mercenary Company1\" division_template = \"Armored Mercenary Company\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Armored Mercenary Company2\" division_template = \"Armored Mercenary Company\" start_experience_factor = 0.5 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+			}
+			activate_mission = armored_mercenary_contract
+	    }
+	}
+	
+	motorized_mercenary = {
+		icon = category_intervention_overseas
+		visible = {
+            NOT = { has_country_flag = motorized_mercenary_flag }
+		}
+		available = {
+			num_of_civilian_factories > 8
+			NOT = { has_idea = idea_motorized_mercenary}
+		}
+		custom_cost_trigger = {
+			has_political_power > 49
+			command_power > 24
+		}
+		custom_cost_text = cost_cp25_pp50
+		days_remove = 0
+		days_re_enable = 0
+		fire_only_once = no
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -50
+				add_command_power = -25
+			}
+		    add_timed_idea = { idea = idea_motorized_mercenary days = 50 }
+		    set_country_flag = motorized_mercenary_flag
+		    set_country_flag = motorized_mercenary_flag1
+		    division_template = {
+				name = "Motorized Mercenary Company"
+					is_locked = yes
+					division_names_group = USA_INF_01
+					regiments = {
+
+					motorized = { x = 0 y = 0 }
+					motorized = { x = 0 y = 1 }
+					motorized = { x = 0 y = 2 }
+					motorized = { x = 0 y = 3 }
+					motorized = { x = 0 y = 4 }
+
+					motorized = { x = 1 y = 0 }
+					motorized = { x = 1 y = 1 }
+					motorized = { x = 1 y = 2 }
+					motorized = { x = 1 y = 3 }
+					motorized = { x = 1 y = 4 }
+
+					mot_artillery_brigade = { x = 2 y = 0 }
+					mot_artillery_brigade = { x = 2 y = 1 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					mot_recon = { x = 0 y = 1 }
+					anti_air = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+				}
+			}
+			division_template = {
+				name = "Mechanized Mercenary Company"
+					is_locked = yes
+					division_names_group = USA_INF_01
+					regiments = {
+
+					mechanized = { x = 0 y = 0 }
+					mechanized = { x = 0 y = 1 }
+					mechanized = { x = 0 y = 2 }
+					mechanized = { x = 0 y = 3 }
+					mechanized = { x = 0 y = 4 }
+
+					mechanized = { x = 1 y = 0 }
+					mechanized = { x = 1 y = 1 }
+					mechanized = { x = 1 y = 2 }
+					mechanized = { x = 1 y = 3 }
+					mechanized = { x = 1 y = 4 }
+
+					mot_artillery_brigade = { x = 2 y = 0 }
+					mot_artillery_brigade = { x = 2 y = 1 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					mot_recon = { x = 0 y = 1 }
+					anti_air = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+					maintenance_company = { x = 0 y = 4 }
+				}
+			}
+            capital_scope = {
+				create_unit = {
+					division = "name = \"Motorized Mercenary Company1\" division_template = \"Motorized Mercenary Company\" start_experience_factor = 0.3 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Mechanized Mercenary Company1\" division_template = \"Mechanized Mercenary Company\" start_experience_factor = 0.75 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+			}
+			activate_mission = motorized_mercenary_contract
+	    }
+	}
+	
+	swi_mercenary = {
+		icon = category_SWI_federal_council
+		visible = {
+			NOT = { has_country_flag = swi_mercenary_flag }
+		}
+		available = {
+			num_of_civilian_factories > 6
+			NOT = { has_idea = idea_swi_mercenary}
+		}
+		custom_cost_trigger = {
+			has_political_power > 29
+			command_power > 14
+		}
+		custom_cost_text = cost_cp15_pp30
+		days_remove = 0
+		days_re_enable = 0
+		fire_only_once = no
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -30
+				add_command_power = -15
+			}
+			add_timed_idea = { idea = idea_swi_mercenary days = 50 }
+		    set_country_flag = swi_mercenary_flag
+		    set_country_flag = swi_mercenary_flag1
+		    division_template = {
+				name = "Swiss Mercenary Company"
+					is_locked = yes
+					division_names_group = USA_INF_01
+					regiments = {
+
+					mountaineers = { x = 0 y = 0 }
+					mountaineers = { x = 1 y = 0 }
+					mountaineers = { x = 2 y = 0 }
+					mountaineers = { x = 3 y = 0 }
+
+					mountaineers = { x = 0 y = 1 }
+					mountaineers = { x = 1 y = 1 }
+					mountaineers = { x = 2 y = 1 }
+					mountaineers = { x = 3 y = 1 }
+
+					artillery_brigade = { x = 0 y = 2 }
+					artillery_brigade = { x = 1 y = 2 }
+					artillery_brigade = { x = 2 y = 2 }
+
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					anti_air = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
+					maintenance_company = { x = 0 y = 3 }
+				}
+			}
+            capital_scope = {
+				create_unit = {
+					division = "name = \"Swiss Mercenary Company1\" division_template = \"Swiss Mercenary Company\" start_experience_factor = 0.8 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Swiss Mercenary Company2\" division_template = \"Swiss Mercenary Company\" start_experience_factor = 0.8 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Swiss Mercenary Company3\" division_template = \"Swiss Mercenary Company\" start_experience_factor = 0.8 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+			}
+			activate_mission = swi_mercenary_contract
+	    }
+	}
+	
+	infantry_mercenary = {
+		icon = category_generic_arms_trade
+		visible = {
+			NOT = { has_country_flag = infantry_mercenary_flag }
+		}
+		available = {
+			num_of_civilian_factories > 4
+			NOT = { has_idea = idea_infantry_mercenary}
+		}
+		custom_cost_trigger = {
+			has_political_power > 19
+			command_power > 9
+		}
+		custom_cost_text = cost_cp10_pp20
+		days_remove = 0
+		days_re_enable = 0
+		fire_only_once = no
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -20
+				add_command_power = -10
+			}
+			add_timed_idea = { idea = idea_infantry_mercenary days = 50 }
+		    set_country_flag = infantry_mercenary_flag
+		    set_country_flag = infantry_mercenary_flag1
+		    division_template = {
+				name = "Mercenary Company"
+					is_locked = yes
+					division_names_group = USA_INF_01
+					regiments = {
+
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 0 y = 4 }
+
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 1 y = 3 }
+					infantry = { x = 1 y = 4 }
+
+					artillery_brigade = { x = 2 y = 0 }
+					artillery_brigade = { x = 2 y = 1 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					engineer = { x = 0 y = 1 }
+					recon = { x = 0 y = 2 }
+				}
+			}
+            capital_scope = {
+				create_unit = {
+					division = "name = \"Mercenary Company1\" division_template = \"Mercenary Company\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Mercenary Company2\" division_template = \"Mercenary Company\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Mercenary Company3\" division_template = \"Mercenary Company\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+			}
+			activate_mission = infantry_mercenary_contract
+	    }
+	}
+	
+    independent_mercenary = {
+		icon = category_eng_organize_the_blackshirts
+		visible = {
+			NOT = { has_country_flag = independent_mercenary_flag }
+		}
+		available = {
+			NOT = { has_idea = idea_independent_mercenary}
+		}
+		custom_cost_trigger = {
+			has_political_power > 9
+			command_power > 4
+		}
+		custom_cost_text = cost_cp5_pp10
+		days_remove = 0
+		days_re_enable = 0
+		fire_only_once = no
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -10
+				add_command_power = -5
+			}
+			add_timed_idea = { idea = idea_independent_mercenary days = 50 }
+		    set_country_flag = independent_mercenary_flag
+		    set_country_flag = independent_mercenary_flag1
+		    division_template = {
+				name = "Independent Mercenary Company"
+					is_locked = yes
+					division_names_group = USA_INF_01
+					regiments = {
+
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 3 y = 0 }
+					infantry = { x = 4 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+            capital_scope = {
+				create_unit = {
+					division = "name = \"Independent Mercenaries1\" division_template = \"Independent Mercenary Company\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Independent Mercenaries2\" division_template = \"Independent Mercenary Company\" start_experience_factor = 0.08 start_equipment_factor = 0.8" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Independent Mercenaries3\" division_template = \"Independent Mercenary Company\" start_experience_factor = 0.06 start_equipment_factor = 0.6" 
+					owner = ROOT
+				}
+			}
+			activate_mission = independent_mercenary_contract
+	    }
+	}
+	
+    child_soldier = {
+		icon = category_infiltration
+		visible = {
+			NOT = { has_country_flag = child_soldier_flag }
+		}
+		available = {
+			NOT = { has_idea = idea_child_soldier }
+			#NOT = { is_major = yes }
+		}
+		cost = 5
+		days_remove = 0
+		days_re_enable = 0
+		fire_only_once = no
+		complete_effect = {
+			add_stability = -0.03
+			add_war_support = -0.03
+			add_ideas = idea_child_soldier
+		    set_country_flag = child_soldier_flag
+		    set_country_flag = child_soldier_flag1
+		    division_template = {
+				name = "child soldier"
+					is_locked = yes
+					division_names_group = USA_INF_01
+					regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+            capital_scope = {
+				create_unit = {
+					division = "name = \"child soldier\" division_template = \"child soldier\" start_experience_factor = 0.0 start_equipment_factor = 0.5" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"child soIdier\" division_template = \"child soldier\" start_experience_factor = 0.0 start_equipment_factor = 0.5" 
+					owner = ROOT
+				}
+			}
+			activate_mission = child_soldier_mission
+	    }
+	}
+	
+    armored_mercenary_contract = {
+		icon = category_ger_military_buildup
+		days_mission_timeout = 180
+		is_good = yes
+		fire_only_once = yes
+		days_remove = 0
+		available = {
+			NOT = { has_country_flag = armored_mercenary_flag }
+		}
+		activation = { 
+			has_country_flag = armored_mercenary_flag1
+		}
+		timeout_effect = {
+			delete_unit_template_and_units = { division_template = "Armored Mercenary Company" }
+			add_timed_idea = { idea = idea_armored_mercenary days = 35 }
+			clr_country_flag = armored_mercenary_flag
+		    clr_country_flag = armored_mercenary_flag1
+		}
+	}
+	
+	armored_mercenary_contract_extension = {
+		icon = eng_trade_unions_support
+		complete_effect = {
+			add_timed_idea = { idea = idea_armored_mercenary days = 50 }
+			add_days_mission_timeout = {
+				mission = armored_mercenary_contract
+				days = 180
+		    }
+		}
+        available = {
+			num_of_civilian_factories > 15
+			NOT = { has_idea = idea_armored_mercenary}
+		}
+		visible = {
+			has_country_flag = armored_mercenary_flag
+		}
+        cost = 35
+		fire_only_once = no
+		days_remove = 0
+	}
+	
+	motorized_mercenary_contract = {
+		icon = category_intervention_overseas
+		days_mission_timeout = 180
+		is_good = yes
+		fire_only_once = yes
+		days_remove = 0
+		available = {
+			NOT = { has_country_flag = motorized_mercenary_flag }
+		}
+		activation = { 
+			has_country_flag = motorized_mercenary_flag1
+		}
+		timeout_effect = {
+			delete_unit_template_and_units = { division_template = "Motorized Mercenary Company" }
+			delete_unit_template_and_units = { division_template = "Mechanized Mercenary Company" }
+			add_timed_idea = { idea = idea_motorized_mercenary days = 35 }
+			clr_country_flag = motorized_mercenary_flag
+		    clr_country_flag = motorized_mercenary_flag1
+		}
+	}
+	
+	motorized_mercenary_contract_extension = {
+		icon = eng_trade_unions_support
+		complete_effect = {
+			add_timed_idea = { idea = idea_motorized_mercenary days = 50 }
+
+			add_days_mission_timeout = {
+            mission = motorized_mercenary_contract
+			days = 180
+		    }
+		}
+        available = {
+			num_of_civilian_factories > 10
+			NOT = { has_idea = idea_motorized_mercenary}
+		}
+		visible = {
+			has_country_flag = motorized_mercenary_flag
+		}
+        cost = 25
+		fire_only_once = no
+		days_remove = 0
+	}
+	
+    swi_mercenary_contract = {
+		icon = category_SWI_federal_council
+		days_mission_timeout = 180
+		is_good = yes
+		fire_only_once = yes
+		days_remove = 0
+		available = {
+			NOT = { has_country_flag = swi_mercenary_flag }
+		}
+		activation = { 
+			has_country_flag = swi_mercenary_flag1
+		}
+		timeout_effect = {
+			delete_unit_template_and_units = { division_template = "Swi Mercenary Company" }
+			add_timed_idea = { idea = idea_swi_mercenary days = 35 }
+			clr_country_flag = swi_mercenary_flag
+		    clr_country_flag = swi_mercenary_flag1
+		}
+	}
+	
+	swi_mercenary_contract_extension = {
+		icon = eng_trade_unions_support
+		complete_effect = {
+			add_timed_idea = { idea = idea_swi_mercenary days = 50 }
+
+			add_days_mission_timeout = {
+            mission = swi_mercenary_contract
+			days = 180
+		    }
+		}
+        available = {
+			num_of_civilian_factories > 8
+			NOT = { has_idea = idea_swi_mercenary}
+		}
+		visible = {
+			has_country_flag = swi_mercenary_flag
+		}
+        cost = 15
+		fire_only_once = no
+		days_remove = 0
+	}
+	
+	infantry_mercenary_contract = {
+		icon = category_usa_honor_the_confederacy
+		days_mission_timeout = 180
+		is_good = yes
+		fire_only_once = yes
+		days_remove = 0
+		available = {
+			NOT = { has_country_flag = infantry_mercenary_flag }
+		}
+		activation = { 
+			has_country_flag = infantry_mercenary_flag1
+		}
+		timeout_effect = {
+			delete_unit_template_and_units = { division_template = "Mercenary Company" }
+			add_timed_idea = { idea = idea_infantry_mercenary days = 35 }
+			clr_country_flag = infantry_mercenary_flag
+		    clr_country_flag = infantry_mercenary_flag1
+		}
+	}
+	
+	infantry_mercenary_contract_extension = {
+		icon = eng_trade_unions_support
+		complete_effect = {
+			add_timed_idea = { idea = idea_infantry_mercenary days = 50 }
+
+			add_days_mission_timeout = {
+            mission = infantry_mercenary_contract
+			days = 180
+		    }
+		}
+        available = {
+			num_of_civilian_factories > 5
+			NOT = { has_idea = idea_infantry_mercenary}
+		}
+		visible = {
+			has_country_flag = infantry_mercenary_flag
+		}
+        cost = 10
+		fire_only_once = no
+		days_remove = 0
+	}
+	
+    independent_mercenary_contract = {
+		icon = category_eng_organize_the_blackshirts
+		days_mission_timeout = 180
+		is_good = yes
+		fire_only_once = yes
+		days_remove = 0
+		available = {
+			NOT = { has_country_flag = independent_mercenary_flag }
+		}
+		activation = { 
+			has_country_flag = independent_mercenary_flag1
+		}
+		timeout_effect = {
+			delete_unit_template_and_units = { division_template = "Independent Mercenary Company" }
+			add_timed_idea = { idea = idea_independent_mercenary days = 35 }
+			clr_country_flag = independent_mercenary_flag
+		    clr_country_flag = independent_mercenary_flag1
+		}
+	}
+	
+	independent_mercenary_contract_extension = {
+		icon = eng_trade_unions_support
+		complete_effect = {
+			add_timed_idea = { idea = idea_independent_mercenary days = 50 }
+
+			add_days_mission_timeout = {
+            mission = independent_mercenary_contract
+			days = 180
+		    }
+		}
+        available = {
+			NOT = { has_idea = idea_independent_mercenary}
+		}
+		visible = {
+			has_country_flag = independent_mercenary_flag
+		}
+        cost = 5
+		fire_only_once = no
+		days_remove = 0
+	}
+	
+    child_soldier_mission = {
+		icon = category_infiltration
+		days_mission_timeout = 1500
+		is_good = no
+		fire_only_once = yes
+		days_remove = 0
+		available = {
+			NOT = { has_country_flag = child_soldier_flag }
+		}
+		activation = { 
+			has_country_flag = child_soldier_flag1
+		}
+		timeout_effect = {
+			delete_unit_template_and_units = { division_template = "child soldier" }
+			remove_ideas = idea_child_soldier
+			clr_country_flag = child_soldier_flag
+		    clr_country_flag = child_soldier_flag1
+		}
+	}
+	
+	child_soldier_delete = {
+		icon = eng_trade_unions_support
+		complete_effect = {
+			add_days_mission_timeout = {
+            mission = child_soldier_mission
+			days = -1500
+		    }
+		}
+		visible = {
+			has_country_flag = child_soldier_flag
+		}
+        cost = 0
+		fire_only_once = no
+		days_remove = 0
+	}
+}
