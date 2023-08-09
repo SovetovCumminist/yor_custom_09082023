@@ -1,0 +1,196 @@
+opt_borders_europe = {
+	allowed = {
+		capital_scope = { is_on_continent = europe }
+	}
+	
+	enable = {
+		threat < 0.05
+		has_war = no
+	}
+	
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = front_unit_request
+		area = europe
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = middle_east
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = asia
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = africa
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = north_america
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = south_america
+		value = -9999
+	}
+	ai_strategy = {
+  		type = garrison
+   		value = 9999
+   	}
+}
+
+opt_borders_asia = {
+	allowed = {
+		capital_scope = { is_on_continent = asia }
+	}
+	
+	enable = {
+		threat < 0.1
+		has_war = no
+	}
+	
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = front_unit_request
+		area = europe
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = middle_east
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = asia
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = africa
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = north_america
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = south_america
+		value = -9999
+	}
+	ai_strategy = {
+  		type = garrison
+   		value = 9999
+   	}
+}
+
+opt_borders_middle_east = {
+	allowed = {
+		capital_scope = { is_on_continent = asia }
+	}
+	
+	enable = {
+		threat < 0.1
+		has_war = no
+	}
+	
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = front_unit_request
+		area = europe
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = middle_east
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = asia
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = africa
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = north_america
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = south_america
+		value = -9999
+	}
+	ai_strategy = {
+  		type = garrison
+   		value = 9999
+   	}
+}
+
+opt_borders_all = {
+	allowed = {
+		not = {
+			or = { 
+				capital_scope = { is_on_continent = europe } 
+				capital_scope = { is_on_continent = asia }
+				capital_scope = { is_on_continent = middle_east }
+			}
+		}
+	}
+	
+	enable = {
+		has_war = no
+	}
+	
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = front_unit_request
+		area = europe
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = middle_east
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = asia
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = africa
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = north_america
+		value = -9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = south_america
+		value = -9999
+	}
+	ai_strategy = {
+  		type = garrison
+   		value = 9999
+   	}
+}

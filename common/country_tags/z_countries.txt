@@ -1,0 +1,5 @@
+LIP	= "countries/Lipetsk.txt"
+SAK	= "countries/Sakartvelo.txt"
+DNR	= "countries/Donetsk.txt"
+CCS	= "countries/Caucas.txt"
+BYM	= "countries/Misatiya.txt"

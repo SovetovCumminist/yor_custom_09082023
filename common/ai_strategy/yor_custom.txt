@@ -1,0 +1,218 @@
+yor_custom = {
+	allowed = {
+		always = yes
+	}
+	
+	enable = {
+		is_major = yes
+	}
+	
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = pp_spend_priority
+		id = guarantee
+		value = -9999
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "UKR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "UKR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "UKR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = support
+		id = "UKR"
+		value = 500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "UKR"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "DNR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DNR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DNR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = support
+		id = "DNR"
+		value = 500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "DNR"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "DON"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DON"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DON"
+		value = -5000
+	}
+	ai_strategy = {
+		type = support
+		id = "DON"
+		value = 500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "DON"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "KUB"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KUB"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KUB"
+		value = -5000
+	}
+	ai_strategy = {
+		type = support
+		id = "KUB"
+		value = 500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "KUB"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CCS"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CCS"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CCS"
+		value = -5000
+	}
+	ai_strategy = {
+		type = support
+		id = "CCS"
+		value = 500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CCS"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SAK"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SAK"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SAK"
+		value = -5000
+	}
+	ai_strategy = {
+		type = support
+		id = "SAK"
+		value = 500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SAK"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AZR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AZR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AZR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = support
+		id = "AZR"
+		value = 500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "AZR"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BYM"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BYM"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BYM"
+		value = -5000
+	}
+	ai_strategy = {
+		type = support
+		id = "BYM"
+		value = 500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "BYM"
+		value = 100
+	}
+}

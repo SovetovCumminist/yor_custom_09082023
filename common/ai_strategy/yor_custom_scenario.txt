@@ -1,0 +1,112 @@
+yor_custom = {
+	allowed = {
+		original_tag = DNR
+	}
+	
+	enable = {
+		always = yes
+	}
+	
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = antagonize
+		id = "UKR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "UKR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MOL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MOL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CRI"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CRI"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DON"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DON"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KUB"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KUB"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CCS"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CCS"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GEO"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GEO"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AZR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AZR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LIP"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "LIP"
+		value = -5000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BYM"
+		value = -5000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BYM"
+		value = -5000
+	}
+}

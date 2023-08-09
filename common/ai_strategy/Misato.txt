@@ -1,0 +1,246 @@
+Pax_Americana_AI = {
+	enable = {
+		has_idea = Pax_Americana_idea
+	}
+	
+	ai_strategy = {
+		type = avoid_starting_wars
+		value = 9999
+	}
+	ai_strategy = {
+		type = conquer
+		value = -500000
+	}
+	ai_strategy = {
+		type = declare_war		
+		value = -500000
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		target = declare_war
+		value = -500000
+	}
+	ai_strategy = {
+		type = prepare_for_war	
+		value = -500000
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		value = -500000
+	}
+	ai_strategy = {
+		type = pp_spend_priority
+		id = declare_war
+		value = -500000
+	}
+	ai_strategy = {
+		type = pp_spend_priority
+		id = send_lend_lease_desire
+		value = -500000
+	}
+	ai_strategy = {
+		type = pp_spend_priority
+		id = guarantee
+		value = -500000
+	}
+	ai_strategy = {
+		type = pp_spend_priority
+		id = decision
+		value = -500000
+	}
+	ai_strategy = { 
+		type = pp_spend_priority
+		id = relation
+		value = -500000
+	}
+	ai_strategy = {
+		type = pp_spend_priority
+		id = admiral
+		value = -500000
+	}
+	ai_strategy = {
+		type = asking_foreign_garrison
+		value = -500000
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		target = military_access
+		value = -500000
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		target = docking_rights
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = bunker
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = infrastructure
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = air_base
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = supply_node
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = rail_way
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = naval_base
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = coastal_bunker
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = anti_air_building
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = synthetic_refinery
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = fuel_silo
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = radar_station
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = rocket_site
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = nuclear_reactor
+		value = -500000
+	}
+}
+
+Small_country_AI = {
+	enable = {
+		has_idea = Small_country_idea
+	}
+	ai_strategy = { 
+		type = pp_spend_priority
+		id = relation
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = bunker
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = infrastructure
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = air_base
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = supply_node
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = rail_way
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = naval_base
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = coastal_bunker
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = anti_air_building
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = synthetic_refinery
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = fuel_silo
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = radar_station
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = rocket_site
+		value = -500000
+	}
+	ai_strategy = {
+		type = building_target
+		id = nuclear_reactor
+		value = -500000
+	}
+}

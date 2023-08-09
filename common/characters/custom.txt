@@ -1,0 +1,301 @@
+characters = {
+	#Липетск
+	LIP_Plotnikov = {
+		name = "Никита Плотников" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIP/Portrait_Plotnikov.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	LIP_Nikita_Plotnikov = {
+		name = "Плотников Никита" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIP/Portrait_Plotnikov_dem.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	LIP_Comrade_Plotnikov = {
+		name = "Товарищ Плотников"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIP/Portrait_Plotnikov.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	#Сакартвело
+	SAK_Fomin = {
+		name = "Иван Фомин" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAK/Portrait_Fomin.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	SAK_Comrade_Fomin = {
+		name = "Товарищ Фомин"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAK/Portrait_Fomin_com.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	#Донецк
+	DNR_Madoka_Kaneme = {
+		name = "Мадока Канамэ"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DNR/Portrait_Madoka_Kaneme.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	DNR_Madoka_god = {
+		name = "Мадока Канамэ"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DNR/Portrait_Madoka_god.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	DNR_Madoka_witch = {
+		name = "Мадока Канамэ"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DNR/Portrait_Madoka_witch.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	DNR_Madoka = {
+		name = "Мадока Канамэ"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DNR/Portrait_Madoka.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	#Кавказ
+	CCS_Karapetyan = {
+		name = "Артур Карапетян"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CCS/Portrait_Karapetyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	CCS_Khachi = {
+		name = "Хачи-Анархисты"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CCS/Portrait_Khachi.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	CCS_Fomin = {
+		name = "Иван Фомин"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CCS/Portrait_Fomin.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	CCS_Zuravlev = {
+		name = "Maks Žuravĺev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CCS/Portrait_Zuravlev.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	#Мисатия
+	BYM_Misato_dem = {
+		name = "Мисато Акулов"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BYM/Portrait_Misato_dem.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	BYM_Misato = {
+		name = "Мисато I"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BYM/Portrait_Misato.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	BYM_Misato_fas = {
+		name = "Мисато Гиркин"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BYM/Portrait_Misato_fas.dds"
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	BYM_Misato_really = {
+		name = "Мисато Кацураги"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BYM/Portrait_Misato_really.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	#Транскавказ
+	AZR_Karapetyan = {
+		name = "Артур Карапетян"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CCS/Portrait_Karapetyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = falangism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = anarchism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+	#Крым
+	CRI_Rasik = {
+		name = "Расик"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRI/Portrait_Rasik.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = falangism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = anarchism
+			expire = "1953.1.1.1"
+			id = -1
+		}
+	}
+}
