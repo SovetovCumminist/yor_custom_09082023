@@ -4,6 +4,11 @@ oob = "CCS"
 
 set_research_slots = 3
 
+recruit_character = CCS_Karapetyan
+recruit_character = CCS_Khachi
+recruit_character = CCS_Fomin
+recruit_character = CCS_Zuravlev
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -99,8 +104,3 @@ set_politics = {
 	election_frequency = 60
 	elections_allowed = yes
 }
-
-recruit_character = CCS_Karapetyan
-recruit_character = CCS_Khachi
-recruit_character = CCS_Fomin
-recruit_character = CCS_Zuravlev

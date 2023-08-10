@@ -1,0 +1,14 @@
+﻿add_namespace = debug
+
+country_event = {
+	id = debug.1
+	title = "Первое дебаг-событие"
+	desc = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "First"
+		ROOT = { promote_character = { character = CCS_Zuravlev ideology = despotism } }
+	}
+}

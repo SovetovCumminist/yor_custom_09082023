@@ -1,6 +1,13 @@
 ﻿capital = 202 #Kiev
 
 oob = "DNR"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "DNR_naval_mtg"
+	else = {
+		set_naval_oob = "DNR_naval_legacy"
+	}
+}
 
 set_research_slots = 3
 

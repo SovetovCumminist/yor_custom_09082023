@@ -1,8 +1,18 @@
 ﻿capital = 137
 
-oob = "CRI_1936"
+oob = "CRI"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CRI_naval_mtg"
+	else = {
+		set_naval_oob = "CRI_naval_legacy"
+	}
+}
 
 set_research_slots = 3
+
+recruit_character = CRI_Rasik
+recruit_character = CRI_ilyas_tarkhan
 
 # Starting tech
 set_technology = {
@@ -92,6 +102,3 @@ set_popularities = {
 	fascism = 50
 	communism = 30
 }
-
-recruit_character = CRI_Rasik
-recruit_character = CRI_ilyas_tarkhan

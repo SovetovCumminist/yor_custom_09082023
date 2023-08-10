@@ -1,0 +1,36 @@
+﻿units = {
+	##### Naval OOB #####
+	fleet = {
+		name = "Armada"			
+		naval_base = 3686
+		task_force = {
+			name = "Armada"
+			location = 3686
+			ship = { name = "Rivadavia" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CRI version_name = "Rivadavia Class" } } }
+			ship = { name = "Moreno" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CRI version_name = "Rivadavia Class" } } }
+			ship = { name = "Veinticinco de Mayo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CRI version_name = "Veinticinco de Mayo Class" } } }
+			ship = { name = "Almirante Brown" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CRI version_name = "Veinticinco de Mayo Class" } } }
+			ship = { name = "Pueyrredon" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CRI version_name = "Garibaldi Class" } } }
+			ship = { name = "Libertad" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CRI version_name = "Libertad Class" } } }
+			ship = { name = "Independencia" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CRI version_name = "Libertad Class" } } }
+			# Flotilla de Destructores nro. 1
+			ship = { name = "Catamarca" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CRI version_name = "Catamarca Class" } } }
+			ship = { name = "Jujuy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CRI version_name = "Catamarca Class" } } }
+			ship = { name = "Córdoba" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CRI version_name = "Catamarca Class" } } }
+			ship = { name = "La Plata" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CRI version_name = "Catamarca Class" } } }
+			# Flotilla de Destructores nro. 2
+			ship = { name = "Cervantes" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CRI version_name = "Cervantes Class" } } }
+			ship = { name = "Juan de Garay" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CRI version_name = "Cervantes Class" } } }
+			ship = { name = "Mendoza" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CRI version_name = "Mendoza Class" } } }
+			ship = { name = "La Rioja" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CRI version_name = "Mendoza Class" } } }
+			ship = { name = "Tucumán" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CRI version_name = "Mendoza Class" } } }
+		}				
+		task_force = {				
+			name = "Submarine"			
+			location = 3686
+			ship = { name = "Santa Fe" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CRI version_name = "Santa Fe Class" } } }
+			ship = { name = "Santiago del Estero" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CRI version_name = "Santa Fe Class" } } }
+			ship = { name = "Salta" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CRI version_name = "Santa Fe Class" } } }
+		}		
+	}
+}

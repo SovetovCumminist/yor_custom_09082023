@@ -1,6 +1,13 @@
 ﻿capital = 797
 
-oob = "UKR_1936"
+oob = "BYM"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "BYM_naval_mtg"
+	else = {
+		set_naval_oob = "BYM_naval_legacy"
+	}
+}
 
 set_research_slots = 3
 

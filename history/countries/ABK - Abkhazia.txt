@@ -1,12 +1,8 @@
-﻿capital = 229 #Baku
+﻿capital = 826 #Sukhumi
 
-set_cosmetic_tag = transcaucasia_unified
-
-oob = "AZR"
+oob = "ABK"
 
 set_research_slots = 3
-
-recruit_character = AZR_Karapetyan
 
 # Starting tech
 set_technology = {
@@ -20,13 +16,16 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
+	
 	mass_assault = 1
 	fleet_in_being = 1
 }
 
 if = {
 	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
 	}
 	set_technology = {
 		early_fighter = 1
@@ -39,24 +38,20 @@ if = {
 
 if = {
 	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
+		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
-		basic_light_tank = 1
 		gwtank = 1
+		basic_light_tank = 1
 	}
 }
 if = {
 	limit = {
-		
 		has_dlc = "No Step Back"
-		
 	}
 	set_technology = {
-		basic_light_tank_chassis = 1
 		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
 	}
 }
 if = {
@@ -89,14 +84,20 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
-set_popularities = {
-	fascism = 100
-}
-
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+set_popularities = {
+	democratic = 10
+	fascism = 30
+	communism = 60
+	neutrality = 0
+}
+
+
+recruit_character = ABK_kirilli_bechvaya
+
