@@ -1,0 +1,31 @@
+integrate_territory_category = {
+	
+	icon = GFX_decision_category_generic_independence
+	
+	picture = GFX_decision_cat_picture_ITA_missiolinis
+	
+	allowed = {
+		is_ai = no
+	}
+	
+	visible = {
+	}
+	
+	on_map_area = {
+		target_array = controlled_states
+		target_trigger = {
+			FROM = {
+				NOT = { is_core_of = ROOT }
+				is_controlled_by = ROOT
+			}
+		}
+		name = integrate_territory_targets
+		zoom = 150
+	}
+	
+	priority = {
+		base = 10
+	}
+	
+	visible_when_empty = yes
+}

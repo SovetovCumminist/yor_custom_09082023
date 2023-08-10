@@ -89,5 +89,12 @@ set_popularities = {
 	communism = 10
 }
 
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
 recruit_character = SAK_Fomin
-recruit_character = SAK_Comrade_Fomin
+#recruit_character = SAK_Comrade_Fomin

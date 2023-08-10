@@ -1,0 +1,6 @@
+﻿l_russian:
+
+ integrate_territory_category: "Интеграция регионов"
+ integrate_territory_category_desc: "Во благо нашей новой общей родины, местные должны принять [ROOT.GetAdjective] культуру и получить гражданство [ROOT.GetName]!"
+ integrate_territory_targets: "§GИнтегрировать§!"
+ integrate_core: "§GИнтегрировать§!"

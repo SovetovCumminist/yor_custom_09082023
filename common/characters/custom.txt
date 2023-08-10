@@ -67,20 +67,25 @@ characters = {
 			expire = "1953.1.1.1"
 			id = -1
 		}
-	}
-	SAK_Comrade_Fomin = {
-		name = "Товарищ Фомин"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SAK/Portrait_Fomin_com.dds"
-			}
-		}
 		country_leader = {
 			ideology = anarchist_communism
 			expire = "1953.1.1.1"
 			id = -1
 		}
 	}
+	#SAK_Comrade_Fomin = {
+	#	name = "Товарищ Фомин"
+	#	portraits = {
+	#		civilian = {
+	#			large = "gfx/leaders/SAK/Portrait_Fomin_com.dds"
+	#		}
+	#	}
+	#	country_leader = {
+	#		ideology = anarchist_communism
+	#		expire = "1953.1.1.1"
+	#		id = -1
+	#	}
+	#}
 	#Донецк
 	DNR_Madoka_Kaneme = {
 		name = "Мадока Канамэ"

@@ -1,0 +1,6 @@
+﻿l_russian:
+
+ integrate_territory_category: "Интеграция регионов"
+ integrate_territory_category_desc: "Если население новых территорий желает получить гражданство [ROOT.GetName] им придётся принять нашу культуру!"
+ integrate_territory_targets: "§GИнтегрировать§! £population_texticon"
+ integrate_core: "§GИнтегрировать§!"
