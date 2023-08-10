@@ -92,4 +92,4 @@ set_popularities = {
 	fascism = 100
 }
 
-recruit_character = AZR_Karapetyan
+recruit_character = CCS_Karapetyan

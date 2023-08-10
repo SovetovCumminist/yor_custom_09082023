@@ -1,16 +1,12 @@
-﻿capital = 260 #Kiev
+<<<<<<< Updated upstream
+﻿capital = 231
+=======
+﻿capital = 231 #Kiev
+>>>>>>> Stashed changes
 
-oob = "DNR"
+oob = "SAK"
 
 set_research_slots = 3
-
-add_ideas = {
-	magic_sensor_idea
-	arrow_hail_idea
-	immeasurable_endurance_idea
-	transformation_into_witch_idea
-	arrows_salvation_idea
-}
 
 # Starting tech
 set_technology = {
@@ -91,20 +87,18 @@ if = {
 }
 
 set_popularities = {
-	fascism = 70
+	fascism = 40
 	democratic = 10
-	neutrality = 10
+	neutrality = 40
 	communism = 10
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
-recruit_character = DNR_Madoka_Kaneme
-recruit_character = DNR_Madoka_god
-recruit_character = DNR_Madoka_witch
-recruit_character = DNR_Madoka
+recruit_character = SAK_Fomin
+#recruit_character = SAK_Comrade_Fomin
