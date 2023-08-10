@@ -4,6 +4,9 @@ oob = "SAK"
 
 set_research_slots = 3
 
+recruit_character = SAK_Fomin
+recruit_character = SAK_Comrade_Fomin
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -95,6 +98,3 @@ set_politics = {
 	election_frequency = 60
 	elections_allowed = yes
 }
-
-recruit_character = SAK_Fomin
-#recruit_character = SAK_Comrade_Fomin

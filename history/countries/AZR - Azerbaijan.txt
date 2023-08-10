@@ -2,9 +2,11 @@
 
 set_cosmetic_tag = transcaucasia_unified
 
-oob = "AZR_1936"
+oob = "AZR"
 
 set_research_slots = 3
+
+recruit_character = AZR_Karapetyan
 
 # Starting tech
 set_technology = {
@@ -92,4 +94,9 @@ set_popularities = {
 	fascism = 100
 }
 
-recruit_character = CCS_Karapetyan
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
