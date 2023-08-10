@@ -1,6 +1,10 @@
-﻿capital = 258
+<<<<<<< Updated upstream
+﻿capital = 231
+=======
+﻿capital = 231 #Kiev
+>>>>>>> Stashed changes
 
-oob = "LIP"
+oob = "SAK"
 
 set_research_slots = 3
 
@@ -83,19 +87,18 @@ if = {
 }
 
 set_popularities = {
-	fascism = 70
+	fascism = 40
 	democratic = 10
-	neutrality = 10
+	neutrality = 40
 	communism = 10
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
-recruit_character = LIP_Plotnikov
-recruit_character = LIP_Nikita_Plotnikov
-recruit_character = LIP_Comrade_Plotnikov
+recruit_character = SAK_Fomin
+#recruit_character = SAK_Comrade_Fomin

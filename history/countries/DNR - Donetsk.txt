@@ -1,4 +1,4 @@
-﻿capital = 202 #Kiev
+﻿capital = 260 #Kiev
 
 oob = "DNR"
 if = {

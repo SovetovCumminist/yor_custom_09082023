@@ -54,22 +54,22 @@ characters = {
 		}
 		country_leader = {
 			ideology = falangism
-			expire = "1953.1.1.1"
+			expire = "1953.1.1"
 			id = -1
 		}
 		country_leader = {
 			ideology = conservatism
-			expire = "1953.1.1.1"
+			expire = "1953.1.1"
 			id = -1
 		}
 		country_leader = {
 			ideology = despotism
-			expire = "1953.1.1.1"
+			expire = "1953.1.1"
 			id = -1
 		}
 		country_leader = {
 			ideology = anarchist_communism
-			expire = "1953.1.1.1"
+			expire = "1953.1.1"
 			id = -1
 		}
 	}
